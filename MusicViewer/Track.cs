@@ -19,6 +19,7 @@ namespace MusicViewer
             Released = released;
             Genres = genres;
         }
+
         public string Album { get; }
 
         public string Artist { get; }
