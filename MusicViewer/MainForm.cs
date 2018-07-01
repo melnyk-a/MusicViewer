@@ -7,8 +7,6 @@ using System.Windows.Forms;
 
 namespace MusicViewer
 {
-    internal delegate bool Comparer(DateTime first, DateTime second);
-
     public partial class MainForm : Form
     {
         private readonly XMLLoader loader = new XMLLoader();
