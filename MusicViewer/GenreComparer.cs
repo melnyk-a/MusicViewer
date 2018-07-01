@@ -2,7 +2,6 @@
 
 namespace MusicViewer
 {
-
     internal sealed class GenreComparer : IComparer<Genre>
     {
         public int Compare(Genre first, Genre second)
