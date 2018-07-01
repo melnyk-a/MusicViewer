@@ -49,7 +49,7 @@ namespace MusicViewer
                     int.TryParse(genre.Attributes["genre-id"].Value, out int genreID);
                     trackGenres.Add(new Genre(genres[genreID - 1]));
                 }
-                trackGenres.Sort(new GenreComperer());
+                trackGenres.Sort(new GenreComparer());
                 loadedTracks.Add(
                     new Track(
                         name, 
